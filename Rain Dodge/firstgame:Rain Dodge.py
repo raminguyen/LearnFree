@@ -11,7 +11,7 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
 pygame.display.set_caption("Space Dodge")
 
-BG = pygame.transform.scale(pygame.image.load("bg.jpeg"), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load("Rain Dodge/bg.jpeg"), (WIDTH, HEIGHT))
 
 PLAYER_WIDTH = 250
 
@@ -30,7 +30,7 @@ STAR_VEL = 3
 
 """ Load music """
 
-pygame.mixer.music.load("music.mp3")
+pygame.mixer.music.load("Rain Dodge/music.mp3")
 pygame.mixer.music.set_volume(1.0)
 
 """ Background """
